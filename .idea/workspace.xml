@@ -20,11 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8fb5397-4b10-4aff-b5bc-c180cee4742f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Routes/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/appExchanges.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/exchanges.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/exchanges.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/img/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/img/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +75,7 @@
       <workItem from="1616609397388" duration="8374000" />
       <workItem from="1616781162871" duration="782000" />
       <workItem from="1616834688013" duration="6806000" />
-      <workItem from="1616858527015" duration="2925000" />
+      <workItem from="1616858527015" duration="16609000" />
     </task>
     <servers />
   </component>
@@ -90,10 +95,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="203" key="#Inspections" timestamp="1616864433080">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="586" y="203" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1616864433080" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1616840365860">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1616840365860" />
+    <state x="1148" y="231" key="RollbackChangesDialog" timestamp="1616874846303">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1148" y="231" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616874846303" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616840997613">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

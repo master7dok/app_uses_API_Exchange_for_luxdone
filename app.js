@@ -1,13 +1,18 @@
-const express = require('express')
-const path = require('path')
+import express from 'express'
+import path from 'path'
 const app = express()
 const PORT = process.env.PORT || 3000
 const url = 'https://api.exchangeratesapi.io/latest'
+import ServerRoutes from './Routes/server.js'
+const __dirname = path.resolve()
 
-const https = require('https');
+import https from 'https'
 let textJSON
 
 app.use(express.static('client'))
+app.use(express.json())
+app.use(express.urlencoded({extended: false}))
+app.use(ServerRoutes)
 
 https.get(url,(res) => {
     let body = "";
@@ -20,10 +25,8 @@ https.get(url,(res) => {
 }).on("error", (error) => {
     console.error(error.message);
 })
-app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '/client/index.html'))
 
-})
+
 app.get('/api/getex', (req, res) => {
     res.send(textJSON)
 })
