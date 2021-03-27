@@ -3,7 +3,7 @@ import path from 'path'
 const app = express()
 const PORT = process.env.PORT || 3000
 const url = 'https://api.exchangeratesapi.io/latest'
-import ServerRoutes from './Routes/server.js'
+import ServerRoutes from './Routes/exchange_routes.js'
 const __dirname = path.resolve()
 
 import https from 'https'

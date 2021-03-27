@@ -1,5 +1,5 @@
 {
-  "name": "luxdone-api-node-express-exchange",
+  "name": "Luxdone-api-node-express-exchange",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
     "request": "^2.88.2",
     "vue": "^3.0.9"
   },
-  "description": "simple application for luxdone that uses an open echange API to fetch data from",
+  "description": "simple application for Luxdone that uses an open exchange API to fetch data from",
   "main": "app.js",
   "keywords": [
     "luxdone",

@@ -1,5 +1,5 @@
 import {Router} from 'express'
-import {getAll, create, remove} from '../controllers/exchanges.js'
+import {getAll, create, remove} from '../controllers/exchanges_control.js'
 const router = Router()
 
 router.get('/api/exchange', getAll)
