@@ -12,7 +12,8 @@
     "express": "^4.17.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.2"
   },
   "description": "simple application for luxdone that uses an open echange API to fetch data from",
   "main": "app.js",
