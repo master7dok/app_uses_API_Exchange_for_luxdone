@@ -21,11 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a8fb5397-4b10-4aff-b5bc-c180cee4742f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/img/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/img/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CallExternalApiUsingNodeJs-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -71,6 +70,7 @@
       <workItem from="1616609397388" duration="8374000" />
       <workItem from="1616781162871" duration="782000" />
       <workItem from="1616834688013" duration="6806000" />
+      <workItem from="1616858527015" duration="2925000" />
     </task>
     <servers />
   </component>
@@ -87,6 +87,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1616840365860">

@@ -1,6 +1,5 @@
 // Global Variables
 
-const addCurrencyList = document.querySelector(".add-currency-list");
 const currenciesList = document.querySelector(".currencies");
 
 const dataURL = "http://localhost:3000/api/getex";
@@ -88,21 +87,12 @@ function currenciesListKeyDown(event) {
 
 // Auxiliary Functions
 
-function populateAddCyrrencyList() {
-  for(let i=0; i<currencies.length; i++) {
-    addCurrencyList.insertAdjacentHTML(
-        "beforeend",
-        `<li data-currency=${currencies[i].abbreviation}>
-        <img src=${currencies[i].flagURL} class="flag"><span>${currencies[i].abbreviation} - ${currencies[i].name}</span>
-      </li>`
-    );
-  }
-}
+
 
 function populateCurrenciesList() {
   for(let i=0; i<initiallyDisplayedCurrencies.length; i++) {
     const currency = currencies.find(c => c.abbreviation===initiallyDisplayedCurrencies[i]);
-    if(currency) newCurrenciesListItem(currency);
+   if(currency) newCurrenciesListItem(currency);
   }
 }
 
@@ -111,7 +101,7 @@ function newCurrenciesListItem(currency) {
     baseCurrency = currency.abbreviation;
     baseCurrencyAmount = 0;
   }
-  addCurrencyList.querySelector(`[data-currency=${currency.abbreviation}]`).classList.add("disabled");
+  // addCurrencyList.querySelector(`[data-currency=${currency.abbreviation}]`).classList.add("disabled");
   const baseCurrencyRate = currencies.find(c => c.abbreviation===baseCurrency).rate;
   const exchangeRate = currency.abbreviation===baseCurrency ? 1 : (currency.rate/baseCurrencyRate).toFixed(4);
   const inputValue = baseCurrencyAmount ? (baseCurrencyAmount*exchangeRate).toFixed(4) : "";
@@ -136,7 +126,6 @@ fetch(dataURL)
       document.querySelector(".date").textContent = data.date;
       data.rates["EUR"] = 1;
       currencies.forEach(currency => currency.rate = data.rates[currency.abbreviation]);
-      populateAddCyrrencyList();
       populateCurrenciesList();
     })
     .catch(err => console.log(err));
